@@ -4,7 +4,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 import nltk
 
 
-text = """ GeeksForGeeks is one of the most useful website. For competitive programming. And you must use it regularly."""
+text = """ """
 
 stopWords = set(stopwords.words("english"))
 words = word_tokenize(text)
